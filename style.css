@@ -1,3 +1,26 @@
-body {
-  background-color: bisque;
+body,
+html {
+  background-color: #e5e5e5;;
+  margin: 0;
+  padding: 0%;
+
+}
+
+.landing-container {
+  height: 100vh;
+  background-color: #fff;;
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 10px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.bar {
+  display: block;
 }
