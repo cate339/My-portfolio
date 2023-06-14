@@ -1,3 +1,4 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
 body,
 html {
   background-color: #e5e5e5;;
@@ -26,14 +27,20 @@ html {
 }
 
 .headline {
+  background-image:url(./images/header-shapes-mobile.png) ;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 587.15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 114px 24px;
-  gap: 12px;
+  /* margin: 0 24px; */
+  gap: 6px;
 }
 
 .text1 {
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -42,6 +49,7 @@ html {
 }
 
 .text2 {
+  font-family: 'poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -50,9 +58,16 @@ html {
 }
 
 .text3 {
+  font-family: 'poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+}
+
+.icons {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
 }
