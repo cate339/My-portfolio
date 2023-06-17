@@ -13,7 +13,7 @@ html {
   background: #fff;
   margin: 0;
   padding: 0;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 45px;
 }
 
 .nav-header {
@@ -77,6 +77,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* height: 620px; */
   padding: 114px 24px;
   gap: 88px;
 }
@@ -85,9 +86,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 88%;
-  height: 552px;
+  width: 90%;
+  height: 640px;
   padding: 16px;
+  margin: 24px;
   border: 1px solid #dfe1e6;
   background: #fff;
   border-radius: 16px;
@@ -97,7 +99,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* margin: 16px; */
+  margin: 24px;
   padding: 16px;
   width: 82%;
   height: 288px;
@@ -190,7 +192,7 @@ html {
 
   .skills {
     background: #ebebff;
-    padding: 4px 12px;
+    padding: 4px 6px;
     border-radius: 8px;
   }
 
@@ -207,6 +209,185 @@ html {
     line-height: 24px;
     text-align: center;
     color: #396df2;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 12px;
+    border: 1px solid #fff;
+    border-top-right-radius: 45px;
+    background: #fff;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .top-heading {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 0px;
+    color: #172b4d;
+  }
+
+  .top-para {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    color: #344563;
+  }
+
+  .social {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .icons2 {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+  }
+
+  .resume {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+  }
+
+  .frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 327px;
+  }
+
+  .frame4 {
+    display: flex;
+    flex-direction: row;
+    width: 327px;
+    justify-content: space-between;
+    align-items: first baseline;
+
+  }
+
+  .list {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  .lang-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .frame5 {
+    display: flex;
+    width: 303px;
+    padding: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    align-items: baseline;
+  }
+
+  .fab-fa-js-square-fa-lg {
+    height: 48px;
+  }
+
+  .lang1 {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin-left: 16px;
+  }
+
+  .frame6 {
+    display: flex;
+    width: 303px;
+    padding: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    align-items: baseline;
+  }
+
+  .lang2 {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin-left: 16px;
+  }
+
+  .frame7 {
+    display: flex;
+    width: 303px;
+    padding: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    align-items: baseline;
+  }
+
+  .lang3 {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #253858;
+    margin-left: 16px;
+  }
+
+  .frame8 {
+    display: flex;
+    width: 327px;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid #dfe1e6;
+  }
+
+  .frame9 {
+    display: flex;
+    width: 327px;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid #dfe1e6;
   }
 
 
