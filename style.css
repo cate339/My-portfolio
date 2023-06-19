@@ -307,6 +307,10 @@ html {
     color: #000;
   }
 
+  .fa-chevron-down {
+    color: #acb7c3;
+  }
+
   .lang-list {
     display: flex;
     flex-direction: column;
@@ -324,8 +328,9 @@ html {
     align-items: baseline;
   }
 
-  .fab-fa-js-square-fa-lg {
+  .fa-js-square {
     height: 48px;
+    color: #ffff00;
   }
 
   .lang1 {
@@ -347,6 +352,10 @@ html {
     align-items: baseline;
   }
 
+  .fa-html5 {
+    color: #ff5349;
+  }
+
   .lang2 {
     font-family: 'poppins', sans-serif;
     font-style: normal;
@@ -364,6 +373,10 @@ html {
     background: #f7f7f9;
     border-radius: 8px;
     align-items: baseline;
+  }
+
+  .fa-css3-alt {
+    color: #0087ce;
   }
 
   .lang3 {
@@ -384,6 +397,10 @@ html {
     border-bottom: 2px solid #dfe1e6;
   }
 
+  .fa-chevron-right {
+    color: #acb7c3;
+  }
+
   .frame9 {
     display: flex;
     width: 327px;
@@ -391,5 +408,4 @@ html {
     justify-content: space-between;
     border-bottom: 2px solid #dfe1e6;
   }
-
 
