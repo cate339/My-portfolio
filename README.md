@@ -234,9 +234,9 @@ Feel free to check the [issues page](https://github.com/cate339/My-portfolio/iss
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> 
 
-If you like this project...
+If you like this project you can follow me on my social media accounts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -246,7 +246,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank my mentor and teacher @mercymugambi 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
