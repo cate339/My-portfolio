@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   
   <br/>
 
-  <h3><b>MercByte README Template</b></h3>
+  <!-- <h3><b>MercByte README Template</b></h3> -->
 
 </div>
 
@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [My-portfolio] <a name="about-project"></a>
+# 📖 My-portfolio <a name="about-project"></a>
 
 >
 
-**[My-portfolio]** is a project that one uses to advertise themselves and also show their skills
+**My-portfolio** is a project that one uses to advertise themselves and also show their skills
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,9 +100,9 @@ After you're finished please remove all the comments and instructions!
 
 >
 
-- **[Display of projects]**
-- **[Display of resume]**
-- **[Display of contacts with email]**
+- **Display of projects**
+- **Display of resume**
+- **Display of contacts with email**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,9 +200,9 @@ With Github pages
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@cate339](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [catherine-mangara-58623127a](https://linkedin.com/in/linkedinhandle)
 
 
 
@@ -212,11 +212,11 @@ With Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+>
 
-- [ ] **[Host project on Github pages]**
-- [ ] **[Add contact me page]**
-- [ ] **[Link project]**
+- [ ] **Host project on Github pages**
+- [ ] **Add contact me page**
+- [ ] **Link project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
