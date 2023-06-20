@@ -196,9 +196,8 @@ With Github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+> 
+👤 **Cate Wanja**
 
 - GitHub: [@cate339](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
