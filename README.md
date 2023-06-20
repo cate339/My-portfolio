@@ -200,7 +200,7 @@ With Github pages
 👤 **Cate Wanja**
 
 - GitHub: [@cate339](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@catesims39](https://twitter.com/twitterhandle)
 - LinkedIn: [catherine-mangara-58623127a](https://linkedin.com/in/linkedinhandle)
 
 
