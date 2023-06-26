@@ -423,6 +423,7 @@ html {
   text-align: center;
   color: #fff;
   padding-top: 84px;
+  margin-top: 0px;
 }
 
 .p1 {
@@ -466,7 +467,7 @@ html {
   font-weight: 400;
   font-size: 20px;
   line-height: 16px;
-  color: #000;
+  color: #b3bac5;
 }
 
 #message {
