@@ -23,8 +23,17 @@ html {
   padding: 0 10px;
 }
 
-.bar {
-  display: block;
+.hamburger {
+  height: 25px;
+  margin: 10px;
+}
+
+.intro, .cards, .about {
+  width: 25px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 4px 0px;
+
 }
 
 .headline {
