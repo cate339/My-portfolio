@@ -23,12 +23,22 @@ html {
   padding: 0 10px;
 }
 
-.hamburger {
+.toggle {
+  display: flex;
+  /* flex-direction: column;  */
+ }
+
+#hamburger {
   height: 25px;
   margin: 10px;
+  display: none;
 }
 
-.intro, .cards, .about {
+.bars {
+  margin: 20px;
+}
+
+.bar {
   width: 25px;
   height: 3px;
   background-color: #6070ff;
