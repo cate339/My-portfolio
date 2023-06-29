@@ -220,6 +220,7 @@ html {
   color: #396df2;
 }
 
+/* <!--this is a comment --> */
 .about-myself {
   display: flex;
   flex-direction: column;
