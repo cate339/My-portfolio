@@ -25,46 +25,51 @@ html {
 
 .toggle {
   display: flex;
-  /* flex-direction: column;  */
  }
 
 #hamburger {
-  height: 25px;
+  height: auto;
   margin: 10px;
   display: none;
 }
 
 .bars {
+  width: 45px;
   margin: 20px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .bar {
-  width: 25px;
+  width: 30px;
   height: 3px;
   background-color: #6070ff;
-  margin: 4px 0px;
+  margin: 2px 0px;
 }
 
 #hamburger:checked +.bars .bar1 {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin-top: 20px;
+  opacity: 0;
 }
 
 #hamburger:checked +.bars .bar2 {
-  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-top: 10px;
 }
 
 #hamburger:checked +.bars .bar3 {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .menu {
-  width: 100%;
+  position: fixed;
+  display: none;
+  z-index: 1;
+  width: auto;
+  height: 100vh;
+  margin: 0;
   background-color: #6070ff;
   display: flex;
   flex-direction: column;
