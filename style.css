@@ -646,6 +646,31 @@ a {
 
   .headline {
     background-image: url(images/Header\ bg@2x.png);
+    width: 95%;
     height: 565.15px;
+    align-items: center;
+    margin-left: 2%;
+  }
+
+  .t1 {
+    width: 64%;
+    padding-top: 70px;
+  }
+
+  .text1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .text2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .icons {
+    width: 64%;
+    justify-content: flex-start;
+    gap: 5%;
   }
 }
