@@ -746,6 +746,7 @@ a {
     display: flex;
     flex-direction: row-reverse;
     width: 80%;
+    height: 496px;
   }
 
   .button3 {
