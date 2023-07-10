@@ -369,7 +369,7 @@ a {
 .top-para {
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
@@ -394,7 +394,7 @@ a {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
-  gap: 10px;
+  margin: 15px 0;
   text-align: center;
   font-family: 'poppins', sans-serif;
   font-style: normal;
@@ -408,13 +408,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 327px;
+  width: 87%;
 }
 
 .frame4 {
   display: flex;
   flex-direction: row;
-  width: 327px;
+  width: 87%;
   justify-content: space-between;
   align-items: first baseline;
 }
@@ -442,7 +442,7 @@ a {
 
 .frame5 {
   display: flex;
-  width: 303px;
+  width: 81%;
   padding: 12px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -466,7 +466,7 @@ a {
 
 .frame6 {
   display: flex;
-  width: 303px;
+  width: 81%;
   padding: 12px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -489,7 +489,7 @@ a {
 
 .frame7 {
   display: flex;
-  width: 303px;
+  width: 81%;
   padding: 12px;
   background: #f7f7f9;
   border-radius: 8px;
@@ -512,7 +512,7 @@ a {
 
 .frame8 {
   display: flex;
-  width: 327px;
+  width: 87%;
   align-items: baseline;
   justify-content: space-between;
   border-bottom: 2px solid #dfe1e6;
@@ -524,7 +524,7 @@ a {
 
 .frame9 {
   display: flex;
-  width: 327px;
+  width: 87%;
   align-items: baseline;
   justify-content: space-between;
   border-bottom: 2px solid #dfe1e6;
@@ -565,11 +565,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-items: center;
-  width: 327px;
+  width: 87%;
 }
 
 #input1 {
-  width: 327px;
+  width: 87%;
   height: 48px;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -578,7 +578,7 @@ a {
 }
 
 #input2 {
-  width: 327px;
+  width: 87%;
   height: 48px;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -596,7 +596,7 @@ a {
 }
 
 #message {
-  width: 327px;
+  width: 87%;
   height: 170px;
   margin: 20px;
   border-radius: 6px;
@@ -609,7 +609,7 @@ a {
 }
 
 #button {
-  width: 140px;
+  width: 37%;
   height: 48px;
   margin-left: 20px;
   border: 1px solid #fff;
@@ -775,6 +775,51 @@ a {
   .fa-hand-pointer {
     width: 10%;
   }
+
+  #about-myself {
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    padding: 114px 0 114px 55px;
+    gap: 25px;
   }
 
+  .top {
+    padding: 10px;
+  }
+
+  .top-heading {
+    color: #091e42;
+  }
+
+  .skill-list {
+    width: 48%;
+    padding: 10px;
+  }
+
+  .frame4 {
+    width: 100%;
+  }
+
+  .list2 {
+    color: #344563;
+  }
+
+  .lang-list {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+  }
+
+  .frame5, .frame6, .frame7 {
+    width: 29.5%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .frame8, .frame9 {
+    width: 100%;
+  }
 }
