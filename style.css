@@ -522,6 +522,14 @@ a {
   color: #acb7c3;
 }
 
+.txt1, .txt2 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+}
+
 .frame9 {
   display: flex;
   width: 87%;
