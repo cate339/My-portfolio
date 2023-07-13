@@ -683,7 +683,7 @@ a {
 
   .headline {
     background-image: url(images/Header\ bg@2x.png);
-    width: 95%;
+    width: 94%;
     height: 565.15px;
     align-items: center;
     margin-left: 2%;
@@ -729,16 +729,22 @@ a {
     display: flex;
     flex-direction: row;
     width: 80%;
-    height: 496px;
-    gap: 50px;
+    height: auto;
+    padding: 2%;
+    gap: 2%;
   }
 
   .snapshot {
-    width: 70%;
+    width: 47%;
+    border: 2px dotted pink;
   }
 
   .left-block {
-    height: 445px;
+    width: 47%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 2px dotted pink;
   }
 
   .title {
@@ -764,11 +770,9 @@ a {
     font-size: 16px;
   }
 
-  .card-works2 {
+  .card-work2 {
     display: flex;
     flex-direction: row-reverse;
-    width: 80%;
-    height: 496px;
   }
 
   .button3 {
