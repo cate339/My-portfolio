@@ -25,7 +25,7 @@
                 <nav class="menu">
                     <a class="link1" href="#works">Portfolio</a>
                     <a class="link1" href="#about-myself">About</a>
-                    <a class="link1" href="#contact">Contact</a>
+                    <a class="link1" href="#contact-page">Contact</a>
                 </nav>
             </div>
         </nav>
@@ -317,21 +317,23 @@
         </div>
     </section>
     <!-- contact me -->
-    <section id="contact">
-        <h1 class="heading">Contact me</h1>
-        <p class="p1">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-        <form class="fill">
-            <label>
-                <input type="text" id="input1" name="username" placeholder="Catherine Wanja" required>
-            </label>
-            <label>
-                <input type="email" id="input2" name="useremail" placeholder="catemangara39@gmail.com" required>
-            </label>
-            <textarea id="message" name="message">write your message here</textarea>
-            <button type="submit" id="button">Get in touch</button>
-        </form>  
-        <img class="image" src="images/Shape.png">
+    <section id="contact-page">
+        <div class="contact">
+            <h1 class="heading">Contact me</h1>
+            <p class="p1">If you have an application you are interested in developing,<br> a feature that you need built or a project that needs coding. 
+                I’d love to help with it!</p>
+            <form action="https://formspree.io/f/myyqyqrk" class="fill" method="post">
+                <label>
+                    <input type="text" id="input1" name="username" placeholder="Catherine Wanja" required>
+                </label>
+                <label>
+                    <input type="email" id="input2" name="useremail" placeholder="catemangara39@gmail.com" required>
+                </label>
+                <textarea id="message" name="message">write your message here</textarea>
+                <button type="submit" id="button">Get in touch</button>
+            </form>  
+            <img class="image" src="images/Shape.png">
+        </div>
     </section>
    
 </body>
