@@ -106,15 +106,15 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+LIVE DEMO
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+>
 
-- [Live Demo Link](https://google.com) -->
+- [https://cate339.github.io/My-portfolio/](https://google.com) -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
