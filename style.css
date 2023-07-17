@@ -343,12 +343,10 @@ a {
   color: #fff;
 }
 
+
+
 #desktop-cards {
   display: none;
-}
-
-.pointer {
-  cursor: pointer;
 }
 
 #about-myself {
@@ -747,6 +745,10 @@ a {
     width: 100%;
     padding: 114px 0;
     gap: 88px;
+  }
+
+  .pointer {
+    cursor: pointer;
   }
 
   .card-works {
