@@ -318,22 +318,37 @@ a {
 }
 
 .action {
-  border: 1px solid #6070ff;
+  border: 1px solid #7f8cff;
+  background-color: #fff;
   border-radius: 8px;
   padding: 12px;
   margin: 24px 0;
-  gap: 10px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  color: #396df2;
+  color: #6070ff;
+}
+
+.action:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0px 8px 16px 0px #4053fc;
+}
+
+.action:active {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 #desktop-cards {
   display: none;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 #about-myself {
@@ -390,7 +405,7 @@ a {
   justify-content: space-between;
 }
 
-.resume {
+/* .resume {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
@@ -402,7 +417,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-}
+} */
 
 .frame3 {
   display: flex;
@@ -620,7 +635,12 @@ a {
   color: #b3bac5;
 }
 
-#button {
+.act2 {
+  width: 40%;
+  align-self: center;
+}
+
+/* #button {
   width: 37%;
   height: 48px;
   margin-left: 20px;
@@ -635,7 +655,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #6070ff;
-}
+} */
 
 .image {
   margin: 33px 120px 5px 120px;
@@ -784,22 +804,6 @@ a {
     justify-content: space-between;
     width: 80%;
     align-items: baseline;
-  }
-
-  .action1 {
-    background-color: #4053fc;
-    color: #fff;
-    border: 1px solid #6070ff;
-    border-radius: 8px;
-    padding: 12px;
-    margin: 24px 0;
-    gap: 10px;
-    font-family: 'poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
   }
 
   .fa-hand-pointer {
