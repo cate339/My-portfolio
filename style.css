@@ -745,9 +745,6 @@ a {
     width: 100%;
     padding: 114px 0;
     gap: 88px;
-  }
-
-  .pointer {
     cursor: pointer;
   }
 
@@ -866,6 +863,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
   }
 
   .fill {
