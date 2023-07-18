@@ -713,6 +713,7 @@ a {
     align-items: center;
     margin-left: 2%;
     border: none;
+    padding: 0 24px;
   }
 
   .t1 {
