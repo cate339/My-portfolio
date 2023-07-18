@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"href="./style.css"/>
 
@@ -14,20 +13,30 @@
     <!-- landing-container -->
     <section class="landing-container">
         <nav class="nav-header">
-            <h2>My logo</h2>
-            <div class="bar">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-                <!-- <span>bar</span>
-                <span>bar</span>
-                <span>bar</span> -->
-
+            <h2 class="logo">My logo</h2>
+            <!-- Setting hamburger -->
+            <div class="hamburgerContainer">
+                <input type="checkbox" id="hamburger">
+                <label class="toggle" for="hamburger">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar2"></div>
+                        <div class="bar bar3"></div>   
+                </label>
+                <nav class="menu">
+                    <a class="link1 mobile-link" href="#works">Portfolio</a>
+                    <a class="link1 desktop-link" href="#desktop-cards">Portfolio</a>
+                    <a class="link1" href="#about-myself">About</a>
+                    <a class="link1" href="#contact-page">Contact</a>
+                </nav>
             </div>
         </nav>
         <div class="headline">
-            <h1 class="text1">I’m Katrina.
+            <div class="t1">
+            <h1 class="text1">I’m Katrina.<br>
             Glad to see you!</h1>
-            <p class="text2">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <p class="text2">I’m a software developer! I can help you build a product , feature or website Look through some of my work <br> and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             <h2 class="text3">LET’S CONNECT</h2>
+            </div>
             <div class="icons">
                 <i class="fab fa-twitter"></i>
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc.<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> -->
@@ -41,7 +50,7 @@
         
     </section>
     <!-- card-works -->
-    <section class="works">
+    <section id="works">
         <div class="card-works">
             <img class="snapshot" src="./images/Snapshoot Portfolio.png"/>
             <div class="left-block">
@@ -72,7 +81,7 @@
                 <img class="snapshot" src="./images/Snapshoot Portfolio (1).png"/>
                 <div class="left-block">
                     <div class="primary-text">
-                        <h1 class="title">Tonic</h1>
+                        <h1 class="title">Multi-Post Stories</h1>
                         <div class="frame2">
                             <h2 class="client">CANOPY</h2>
                             <img class="counter" src="./images/Counter.png"/>
@@ -121,10 +130,10 @@
         </div>
         <!-- card-work4 -->
             <div class="card-works">
-                <img class="snapshot" src="./images/Snapshoot Portfolio.png"/>
+                <img class="snapshot" src="./images/Snapshoot Portfolio (3).png"/>
                 <div class="left-block">
                     <div class="primary-text">
-                        <h1 class="title">Tonic</h1>
+                        <h1 class="title">Multi-Post Stories</h1>
                         <div class="frame2">
                             <h2 class="client">CANOPY</h2>
                             <img class="counter" src="./images/Counter.png"/>
@@ -147,12 +156,124 @@
             </div>
         
     </section>
+    <!-- cardworks Desktop -->
+    <section id="desktop-cards">
+            <div class="card-works">
+                <img class="snapshot" src="./images/Portoflio Card/Snapshoot Portfolio.png">
+                <div class="left-block">
+                    <div class="primary-text">
+                        <h1 class="title">Tonic</h1>
+                        <div class="frame2">
+                            <h2 class="client">CANOPY</h2>
+                            <img class="counter" src="./images/Counter.png"/>
+                            <h3 class="role">Back End Dev</h3>
+                            <img class="counter" src="./images/Counter.png"/>
+                            <h3 class="year">2015</h3>
+    
+                        </div>
+                    </div>
+                    <p class="primary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                    <div class="tags">
+                        <ul class="list">
+                            <li class="skills">html</li>
+                            <li class="skills">css</li>
+                            <li class="skills">javascript</li>
+                        </ul>
+                    </div>
+                    <button class="action">See project</button>
+                </div>
+            </div>
+            <!-- card-work2 -->
+                <div class="card-works card-work2">
+                    <img class="snapshot" src="./images/Snapshoot Portfolio (3).png"/>
+                    <div class="left-block">
+                        <div class="primary-text">
+                            <h1 class="title">Multi-Post Stories</h1>
+                            <div class="frame2">
+                                <h2 class="client">FACEBOOK</h2>
+                                <img class="counter" src="./images/Counter.png"/>
+                                <h3 class="role">Full Stack Dev</h3>
+                                <img class="counter" src="./images/Counter.png"/>
+                                <h3 class="year">2015</h3>
+        
+                            </div>
+                        </div>
+                        <p class="primary">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                        <div class="tags">
+                            <ul class="list">
+                                <li class="skills">html</li>
+                                <li class="skills">ruby on rails</li>
+                                <li class="skills">css</li>
+                                <li class="skills">javascript</li>
+                            </ul>
+                        </div>
+                        <button class="action">See project</button>
+                    </div>
+                </div>
+            <!-- card-work3 -->
+            <div class="card-works">
+                <img class="snapshot" src="./images/Snapshoot Portfolio.png"/>
+                <div class="left-block">
+                    <div class="primary-text">
+                        <h1 class="title">Facebook 360</h1>
+                        <div class="frame2">
+                            <h2 class="client">FACEBOOK</h2>
+                            <img class="counter" src="./images/Counter.png"/>
+                            <h3 class="role">Full Stack Dev</h3>
+                            <img class="counter" src="./images/Counter.png"/>
+                            <h3 class="year">2015</h3>
+    
+                        </div>
+                    </div>
+                    <p class="primary">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                    <div class="tags">
+                        <ul class="list">
+                            <li class="skills">html</li>
+                            <li class="skills">ruby on rails</li>
+                            <li class="skills">css</li>
+                            <li class="skills">javascript</li>
+                        </ul>
+                    </div>
+                    <div class="button3">
+                    <button class="action">See project</button>
+                    <!-- <i class="fal fa-hand-pointer"></i> -->
+                    </div>
+                </div>
+            </div>
+            <!-- card-work4 -->
+                <div class="card-works card-work2">
+                    <img class="snapshot" src="./images/Snapshoot Portfolio (1).png">
+                    <div class="left-block">
+                        <div class="primary-text">
+                            <h1 class="title">Uber Navigation</h1>
+                            <div class="frame2">
+                                <h2 class="client">Uber</h2>
+                                <img class="counter" src="./images/Counter.png"/>
+                                <h3 class="role">Lead Developer</h3>
+                                <img class="counter" src="./images/Counter.png"/>
+                                <h3 class="year">2018</h3>
+        
+                            </div>
+                        </div>
+                        <p class="primary">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+                        <div class="tags">
+                            <ul class="list">
+                                <li class="skills">html</li>
+                                <li class="skills">ruby on rails</li>
+                                <li class="skills">css</li>
+                                <li class="skills">javascript</li>
+                            </ul>
+                        </div>
+                        <button class="action">See project</button>
+                    </div>
+                </div>
+    </section>
 
     <!-- About -->
-    <section class="about-myself">
+    <section id="about-myself">
         <div class="top">
             <h1 class="top-heading">About Myself</h1>
-            <p class="top-para">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <p class="top-para">Hello I’m a software developer! I can help you build a product , feature or website. <br> Look through some of my work and experience! If you like what you see and have <br> a project you need coded, don’t hesitate to contact me.</p>
             <div class="social-media">
                 <h3 class="social">LET’S CONNECT</h3>
                 <div class="icons2">
@@ -162,7 +283,7 @@
                     <i class="fab fa-medium-m"></i>
                 </div>
             </div>
-            <button class="resume">Get my resume</button>
+            <button class="action">Get my resume</button>
         </div>
         <div class="skill-list">
             <div class="frame3">
@@ -185,7 +306,7 @@
                     </div>
                 </div>
                 <div class="frame8">
-                    <h2 class="txt1 text-1">Frameworks</h2>
+                    <h2 class="txt1">Frameworks</h2>
                     <i class="fas fa-chevron-right"></i>
                 </div>
                 <div class="frame9">
@@ -196,21 +317,23 @@
         </div>
     </section>
     <!-- contact me -->
-    <section class="contact">
-        <h1 class="heading">Contact me</h1>
-        <p class="p1">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!</p>
-        <form class="fill">
-            <label>
-                <input type="text" id="input1" name="username" placeholder="Catherine Wanja" required>
-            </label>
-            <label>
-                <input type="email" id="input2" name="useremail" placeholder="catemangara39@gmail.com" required>
-            </label>
-            <textarea id="message" name="message">write your message here</textarea>
-            <button type="submit" id="button">Get in touch</button>
-        </form>  
-        <img class="image" src="images/Shape.png">
+    <section id="contact-page">
+        <div class="contact">
+            <h1 class="heading">Contact me</h1>
+            <p class="p1">If you have an application you are interested in developing,<br> a feature that you need built or a project that needs coding. 
+                I’d love to help with it!</p>
+            <form action="https://formspree.io/f/myyqyqrk" class="fill" method="post">
+                <label>
+                    <input type="text" id="input1" name="username" placeholder="Catherine Wanja" required>
+                </label>
+                <label>
+                    <input type="email" id="input2" name="useremail" placeholder="catemangara39@gmail.com" required>
+                </label>
+                <textarea id="message" name="message">write your message here</textarea>
+                <button type="submit" class="act2  action" >Get in touch</button>
+            </form>  
+            <img class="image" src="images/Shape.png">
+        </div>
     </section>
    
 </body>
