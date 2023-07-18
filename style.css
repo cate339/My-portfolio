@@ -14,14 +14,12 @@ html {
   margin: 0;
   padding: 0;
   border-bottom-left-radius: 45px;
-  border: 5px solid red;
 }
 
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 3px dotted yellow; 
   /* padding: 0 10px; */
   height: 50px;
 }
@@ -41,7 +39,6 @@ html {
 .hamburgerContainer {
   width: 80%;
   height: 50px;
-  border: 1px solid grey;
   align-self: center;
 }
 
@@ -130,10 +127,9 @@ a {
   margin: 0 10px;
 }
 
-/* .link1:hover {
-  background-color: #fff;
-  color: #808080;
-} */
+.desktop-link {
+  display: none;
+}
 
 .headline {
   background-image: url(./images/header-shapes-mobile.png);
@@ -145,7 +141,6 @@ a {
   align-items: flex-start;
   padding: 114px 24px;
   gap: 6px;
-  border: 2px solid green;
 }
 
 .text1 {
@@ -701,6 +696,14 @@ a {
     text-align: center;
     color: #344563;
     margin: 0px;
+  }
+
+  .mobile-link {
+    display: none;
+  }
+
+  .desktop-link {
+    display: flex;
   }
 
   .headline {
