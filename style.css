@@ -21,7 +21,7 @@ html {
   align-items: center;
   justify-content: space-between;
   /* padding: 0 10px; */
-  height: 50px;
+  height: auto;
 }
 
 .logo {
@@ -135,7 +135,7 @@ a {
   background-image: url(./images/header-shapes-mobile.png);
   background-repeat: no-repeat;
   position: absolute;
-  height: 390.15px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -310,6 +310,11 @@ a {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+  transition: transform 2s;
+}
+
+.skills:hover {
+  transform: scale(1.5);
 }
 
 .action {
@@ -708,8 +713,9 @@ a {
 
   .headline {
     background-image: url(images/Header\ bg@2x.png);
+    background-size: cover;
     width: 94%;
-    height: 565.15px;
+    height: auto;
     align-items: center;
     margin-left: 2%;
     border: none;
@@ -764,7 +770,7 @@ a {
 
   .snapshot {
     width: 47%;
-    border: 2px dotted pink;
+    /* border: 2px dotted pink; */
   }
 
   .left-block {
@@ -772,7 +778,7 @@ a {
     height: auto;
     margin: 0;
     padding: 0;
-    border: 2px dotted pink;
+    /* border: 2px dotted pink; */
   }
 
   .title {
@@ -801,17 +807,6 @@ a {
   .card-work2 {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .button3 {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    align-items: baseline;
-  }
-
-  .fa-hand-pointer {
-    width: 10%;
   }
 
   #about-myself {
