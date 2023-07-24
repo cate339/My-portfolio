@@ -20,6 +20,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   /* padding: 0 10px; */
   height: auto;
 }
@@ -31,7 +32,7 @@ html {
   line-height: 20px;
   align-self: center;
   color: #6070ff;
-  margin: 0px;
+  margin: 0;
 }
 
 /* Hamburger */
@@ -69,19 +70,38 @@ html {
 
 #hamburger:checked + .toggle .bar1 {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-top: 22.5px;
 }
 
 #hamburger:checked + .toggle .bar2 {
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   margin-top: -5px;
 }
 
 #hamburger:checked + .toggle .bar3 {
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
+}
+
+/* Menu */
+.menu {
+  width: 100%;
+  gap: 8px;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  text-align: start;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
 }
 
 #hamburger:checked ~ .menu {
@@ -89,29 +109,6 @@ html {
   position: fixed;
   width: 100%;
   background-color: #6070ff;
-}
-
-
-/* Menu */
-.menu {
-  width: 100%;
-  gap: 8px;
-  background-color:  #6070ff;
-  mix-blend-mode: multiply;
-  /* margin: -65px 0; */
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  list-style: none;
-  clear: both;
-  width: auto;
-  text-align: start;
-  height: 0px;
-  overflow: hidden;
-  transition: height .4s ease;
-  z-index: 120;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 a {
@@ -330,15 +327,13 @@ a {
 .action:hover {
   background-color: #6070ff;
   color: #fff;
-  box-shadow: 0px 8px 16px 0px #4053fc;
+  box-shadow: 0 8px 16px 0 #4053fc;
 }
 
 .action:active {
   background-color: #2230d2;
   color: #fff;
 }
-
-
 
 #desktop-cards {
   display: none;
@@ -530,7 +525,8 @@ a {
   color: #acb7c3;
 }
 
-.txt1, .txt2 {
+.txt1,
+.txt2 {
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -658,7 +654,7 @@ a {
   .landing-container {
     border: none;
   }
-  
+
   .nav-header {
     border: none;
     margin-bottom: 40px;
@@ -684,8 +680,6 @@ a {
     justify-content: flex-end;
     align-items: center;
     margin-right: 120px;
-    
-
   }
 
   .link1 {
@@ -695,7 +689,7 @@ a {
     line-height: 20px;
     text-align: center;
     color: #344563;
-    margin: 0px;
+    margin: 0;
     padding-right: 10px;
     transition: transform 1s;
   }
@@ -773,6 +767,7 @@ a {
   .snapshot {
     width: 47%;
     transition: transform 2s;
+
     /* border: 2px dotted pink; */
   }
 
@@ -785,6 +780,7 @@ a {
     height: auto;
     margin: 0;
     padding: 0;
+
     /* border: 2px dotted pink; */
   }
 
@@ -800,7 +796,8 @@ a {
     line-height: 24px;
   }
 
-  .role, .year {
+  .role,
+  .year {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -863,7 +860,9 @@ a {
     width: 60%;
   }
 
-  .frame5, .frame6, .frame7 {
+  .frame5,
+  .frame6,
+  .frame7 {
     width: 29.5%;
     height: 70px;
     display: flex;
@@ -871,7 +870,8 @@ a {
     padding-top: 15px;
   }
 
-  .frame8, .frame9 {
+  .frame8,
+  .frame9 {
     width: 100%;
   }
 
