@@ -310,11 +310,6 @@ a {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
-  transition: transform 2s;
-}
-
-.skills:hover {
-  transform: scale(1.5);
 }
 
 .action {
@@ -688,7 +683,7 @@ a {
     background-color: #fff;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 120px;
     
 
   }
@@ -701,6 +696,13 @@ a {
     text-align: center;
     color: #344563;
     margin: 0px;
+    padding-right: 10px;
+    transition: transform 1s;
+  }
+
+  .link1:hover {
+    color: #6070ff;
+    transform: scale(1.2);
   }
 
   .mobile-link {
@@ -770,7 +772,12 @@ a {
 
   .snapshot {
     width: 47%;
+    transition: transform 2s;
     /* border: 2px dotted pink; */
+  }
+
+  .snapshot:hover {
+    transform: scaleY(1.1);
   }
 
   .left-block {
@@ -802,6 +809,18 @@ a {
 
   .primary {
     font-size: 16px;
+  }
+
+  .tags {
+    width: 70%;
+  }
+
+  .skills {
+    transition: transform 2s;
+  }
+
+  .skills:hover {
+    transform: scale(1.2);
   }
 
   .card-work2 {
