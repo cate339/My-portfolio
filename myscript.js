@@ -1,12 +1,12 @@
-const hamburgerContainer = document.querySelector('.hamburgerContainer');
-const menu = document.querySelector('.menu');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.navMenu');
 
-hamburgerContainer.addEventListener('click', function(){
-    hamburgerContainer.classList.toggle('active');
-    menu.classList.toggle('active');
+hamburger.addEventListener('click', function(){
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 })
 
-document.querySelectorAll('link1').forEach(n => n.addEventListener('click'), function(){
-    hamburgerContainer.classList.remove('active');
-    menu.classList.remove('active');
+document.querySelectorAll('navLink').forEach(n => n.addEventListener('click'), function(){
+    hamburger.classList.remove('active');
+    navMenu.classList.remove('active');
 })
