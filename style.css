@@ -49,6 +49,7 @@ header {
   display: flex;
   flex-direction: column;
   z-index: 2;
+  cursor: pointer;
 }
 
 .bar {
@@ -623,6 +624,10 @@ a {
   }
 
   .navMenu {
+    display: none;
+  }
+
+  .navDesktop {
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -644,6 +649,11 @@ a {
 
   .navLink {
     transition: 0.7s ease;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   .navLink:hover {
@@ -652,7 +662,6 @@ a {
 
   .hamburger {
     display: none;
-    cursor: pointer;
   }
 
   .headline {
