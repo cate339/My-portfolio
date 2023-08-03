@@ -93,6 +93,10 @@ header {
   border: 3px dashed yellow;
 }
 
+.navDesktop {
+  display: none;
+}
+
 li {
   list-style: none;
 }
