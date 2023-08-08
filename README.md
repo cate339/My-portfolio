@@ -106,7 +106,7 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-LIVE DEMO
+
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -166,9 +166,9 @@ Example command:
 ```
 -
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
