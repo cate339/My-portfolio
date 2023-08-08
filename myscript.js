@@ -110,31 +110,4 @@ function addMobileCards(){
 };
 
 addMobileCards();
-
-
-// `<div class="card-works">
-//             <img class="snapshot" src= "./images/Snapshoot Portfolio.png"/>
-//             <div class="left-block">
-//                 <div class="primary-text">
-//                     <h1 class="title">${title}</h1>
-//                     <div class="frame2">
-//                         <h2 class="client">${client}</h2>
-//                         <img class="counter" src= ${counter}/>
-//                         <h3 class="role">${role}</h3>
-//                         <img class="counter" src=${counter}/>
-//                         <h3 class="year">${year}</h3>
-
-//                     </div>
-//                 </div>
-//                 <p class="primary">${primary}</p>
-//                 <div class="tags">
-//                     <ul class="list">
-//                         <li class="skills">${skills}</li>
-//                         <li class="skills">${skills2}</li>
-//                         <li class="skills">${skills3}</li>
-//                     </ul>
-//                 </div>
-//                 <button class="action">${action}</button>
-//             </div>
-//         </div>`
 }
