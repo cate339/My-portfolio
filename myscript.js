@@ -140,6 +140,147 @@ const work = [{
     action: "See project", 
 }];
 
+
+// mobile pop-up object
+const popModal = [{
+    no: 1,
+    title: "Tonic",
+    client: "Canopy",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role: "Back End Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year: "2015",
+    snapshot: '<img class="snapshot" src= "./images/Snapshoot Portfolio.png"/>',
+    p_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "JAVASCRIPT",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 2,
+    title: "Multi-Post Stories",
+    client: "Canopy",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role: "Back End Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year: "2015",
+    snapshot: '<img class="snapshot" src= "./images/Snapshoot Portfolio (1).png"/>',
+    p_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "JAVASCRIPT",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 3,
+    title: "Tonic",
+    client: "Canopy",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role: "Back End Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year: "2015",
+    snapshot: '<img class="snapshot" src= "./images/Snapshoot Portfolio (2).png"/>',
+    p_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "JAVASCRIPT",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 4,
+    title: "Multi-Post Stories",
+    client: "Canopy",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role: "Back End Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year: "2015",
+    snapshot: '<img class="snapshot" src= "./images/Snapshoot Portfolio (3).png"/>',
+    p_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "JAVASCRIPT",
+    p_action: "See Live",
+    p_action1: "See Source",
+}];
+
+// desktop pop-up object
+const Modal = [{
+    no: 1,
+    title: "Tonic",
+    client2: "Canopy",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role2: "Back End Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year2: "2015",
+    snapshot2: '<img class="snapshot2" src="./images/Portoflio Card/Snapshoot Portfolio.png">',
+    pp_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "Javascript",
+    skills3: "Ruby",
+    skills4: "Bootstrap",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 2,
+    title: "Multi-Post Stories",
+    client2: "FACEBOOK",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role2: "Full Stack Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year2: "2015",
+    snapshot2: '<img class="snapshot" src="./images/Snapshoot Portfolio (3).png"/>',
+    pp_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "Javascript",
+    skills3: "Ruby",
+    skills4: "Bootstrap",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 3,
+    title: "Facebook 360",
+    client2: "FACEBOOK",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role2: "Full Stack Dev",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year2: "2015",
+    snapshot2: '<img class="snapshot" src="./images/Snapshoot Portfolio.png"/>',
+    pp_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "Javascript",
+    skills3: "Ruby",
+    skills4: "Bootstrap",
+    p_action: "See Live",
+    p_action1: "See Source",
+},
+{
+    no: 4,
+    title: "Uber Navigation",
+    client2: "Uber",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    role2: "Lead Developer",
+    counter: '<img class="counter" src="./images/Counter.png"/>',
+    year2: "2018",
+    snapshot2: '<img class="snapshot" src="./images/Snapshoot Portfolio (1).png">',
+    pp_text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.",
+    skills: "HTML",
+    skills1: "CSS",
+    skills2: "Javascript",
+    skills3: "Ruby",
+    skills4: "Bootstrap",
+    p_action: "See Live",
+    p_action1: "See Source",
+}];
+
 // mobile cards function
 window.onload = function loader() {
 
@@ -242,7 +383,7 @@ function addMobileCards(){
                             <li class="skills">${item.skills3}</li>
                         </ul>
                     </div>
-                    <a href="#${item.id}"class="action">See project</a>
+                    <a href="${item.id}"class="action">See project</a>
                 </div>
                 </div>`
             };
@@ -255,3 +396,102 @@ function addMobileCards(){
     
     addDesktopCards();
 };
+
+
+ // mobile pop-up function
+
+        const popUp = document.getElementById ('pop-up')
+
+        function addMobilePopUp (){
+            let mobileModal ='';
+
+            popModal.forEach ((pop)=> {
+                mobileModal += `
+                <div class="primary" "${pop.no}">
+            <h1 class="title">${pop.title}</h1>
+            <div class="frame2">
+                <h2 class="client">${pop.client}</h2>
+                ${pop.counter}
+                <h2 class="role">${pop.role}</h2>
+                ${pop.counter}
+                <h2 class="year">${pop.year}</h2>
+            </div>
+        </div>
+        ${pop.snapshot}
+        <div class="left-block2">
+            <p class="p_text">${pop.p_text}</p>
+            <div class="tag">
+                <ul class="list">
+                    <li class="skills">${pop.skills}</li>
+                    <li class="skills">${pop.skills1}</li>
+                    <li class="skills">${pop.skills2}</li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <button class="action p_action">
+                    <h2>${pop.p_action}</h2>
+                </button>
+                <button class=" action p_action">
+                    <h2>${pop.p_action1}</h2>
+                    <i class="fab fa-github"></i>
+                </button>
+            </div>
+        </div>`
+            });
+            popUp.innerHTML = mobileModal;
+        };
+
+        // desktop pop-up function
+
+        const desktopPop = document.getElementById ('modal')
+
+        function addDesktopPopUp (){
+            let desktopModal ='';
+
+            Modal.forEach ((up)=> {
+                desktopModal += `
+                <div class="top-block ${up.no}">
+            <h1 class="title">${up.title}</h1>
+            <div class="frame2">
+                <h2 class="client2">${up.client2}</h2>
+                ${up.counter}
+                <h2 class="role2">${up.role2}</h2>
+                ${up.counter}
+                <h2 class="year2">${up.year2}</h2>
+            </div>
+        </div>
+        ${up.snapshot2}
+        <div class="bottom-block">
+            <div class="block-left">
+                <p class="pp_text">${up.pp_text}</p>
+            </div>
+            <div class="right-block">
+                <div class="tag">
+                    <ul class="list">
+                        <li class="skills">${up.skills}</li>
+                        <li class="skills">${up.skills1}</li>
+                        <li class="skills">${up.skills2}</li>
+                        <li class="skills">${up.skills3}</li>
+                        <li class="skills">${up.skills4}</li>
+                    </ul>
+                </div>
+                <div class="buttons">
+                    <button class="action p_action">
+                        <h2>${up.p_action}</h2>
+                    </button>
+                    <button class="action p_action">
+                        <h2>${up.p_action1}</h2>
+                        <i class="fab fa-github"></i>
+                    </button>
+                </div>
+            </div>
+        </div>`
+            });
+            desktopPop.innerHTML = desktopModal;
+        };
+
+
+        addMobilePopUp();
+
+        addDesktopPopUp();
+

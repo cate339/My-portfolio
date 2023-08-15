@@ -340,7 +340,7 @@ a {
   gap: 12px;  
 }
 
-.p-text {
+.p_text {
   font-family: 'poppins', sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -360,7 +360,7 @@ a {
   gap: 10px;
 }
 
-.p-action {
+.p_action {
   height: 50px;
   display: flex;
   align-items: center;
@@ -858,7 +858,7 @@ a {
     padding: 15px;
   }
 
-  .pp-text  {
+  .pp_text  {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
