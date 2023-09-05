@@ -825,6 +825,20 @@ a {
   #modal {
     background-color: #fff;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .top-block {
+    width: 90%;
+    margin: 70px 5% 0 5%;
+  }
+
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   .client2 {
@@ -846,7 +860,8 @@ a {
   }
 
   .snapshot2 {
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
   }
 
   .bottom-block {
