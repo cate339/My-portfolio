@@ -411,7 +411,7 @@ function addMobileCards(){
             }
 
              mobileModal += `
-             <div class="primary" id="${pop.no}">
+             <div class="primary p_top" id="${pop.no}">
              <div class="div1">
                 <h1 class="title">${pop.title}</h1>
                 <a href="#" class="close-btn">&times;</a>
