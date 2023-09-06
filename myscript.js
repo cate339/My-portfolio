@@ -411,7 +411,8 @@ function addMobileCards(){
             }
 
              mobileModal += `
-             <div class="primary p_top" id="${pop.no}">
+             <div class="mobileModals" id="${pop.no}">
+             <div class="primary">
              <div class="div1">
                 <h1 class="title">${pop.title}</h1>
                 <a href="#" class="close-btn">&times;</a>
@@ -443,6 +444,7 @@ function addMobileCards(){
                  <i class="fab fa-github"></i>
              </button>
          </div>
+         </div>
      </div>`
          });
          popUp.innerHTML = mobileModal;
@@ -457,7 +459,8 @@ function addMobileCards(){
 
          Modal.forEach ((up)=> {
              desktopModal += `
-             <div class="top-block" id="${up.no}">
+             <div class="desktopModals" id="${up.no}">
+             <div class="top-block">
              <div class="div1">
                 <h1 class="title">${up.title}</h1>
                 <a href="#" class="close-btn">&times;</a>
@@ -495,6 +498,7 @@ function addMobileCards(){
                  </button>
              </div>
          </div>
+         </div>
      </div>`
          });
          desktopPop.innerHTML = desktopModal;
@@ -505,7 +509,3 @@ function addMobileCards(){
 
      addDesktopPopUp();
 };
-
-
-
-
