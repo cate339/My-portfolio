@@ -204,7 +204,7 @@ a {
   margin: 24px;
   padding: 16px;
   width: 82%;
-  height: 288px;
+  height: auto;
 }
 
 .primary-text {
@@ -280,7 +280,7 @@ a {
   display: flex;
   list-style-type: none;
   padding: 0;
-  gap: 8px;
+  gap: 15px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -328,6 +328,80 @@ a {
 
 #desktop-cards {
   display: none;
+}
+
+#pop-up {
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 12px;
+}
+
+/* create modals div */
+.mobileModals {
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 823px;
+  border-radius: 16px;
+  background-color: #fff;
+  visibility: hidden;
+}
+
+.mobileModals:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.desktopModals {
+  display: none;
+}
+
+/* end here */
+
+.div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.close-btn {
+  margin: 2%;
+}
+
+.p_text {
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  border-bottom: 1px solid #ebecf0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.p_action {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 20px;
+  gap: 10px;
 }
 
 #about-myself {
@@ -738,8 +812,6 @@ a {
     height: auto;
     margin: 0;
     padding: 0;
-
-    /* border: 2px dotted pink; */
   }
 
   .title {
@@ -781,6 +853,65 @@ a {
   .card-work2 {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  #modal {
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .top-block {
+    width: 90%;
+    margin: 70px 5% 0 5%;
+  }
+
+  .client2 {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .role2,
+  .year2 {
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #7a869a;
+  }
+
+  .snapshot2 {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .bottom-block {
+    display: flex;
+  }
+
+  .block-left {
+    width: 67%;
+    padding: 15px;
+  }
+
+  .pp_text {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .right-block {
+    padding: 15px;
   }
 
   #about-myself {
